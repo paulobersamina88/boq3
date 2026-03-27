@@ -1,0 +1,125 @@
+category,subcategory,item,unit,unit_cost_min,unit_cost_max,spec_level,material_factor,labor_factor,equipment_factor,notes
+Civil,Site Preparation,Mobilization / Demobilization,lot,30000,150000,General,0.0,0.0,0.0,Project startup and closeout
+Civil,Site Preparation,Clearing and Grubbing,sqm,45,120,Basic,0.0,0.0,0.0,"Vegetation, debris, and topsoil stripping"
+Civil,Earthworks,Structure Excavation - Common Soil,cum,300,650,Basic,0.0,0.0,0.0,Manual or machine excavation
+Civil,Earthworks,Structure Excavation - Rock,cum,1200,2800,Basic,0.0,0.0,0.0,Rock excavation
+Civil,Earthworks,Backfilling with Selected Fill,cum,300,650,Basic,0.0,0.0,0.0,Backfill and placement
+Civil,Earthworks,Compaction,sqm,80,180,Basic,0.0,0.0,0.0,Compaction of fill/subgrade
+Civil,Subbase and Base,Gravel Bedding,cum,1400,2300,Basic,0.0,0.0,0.0,Selected gravel or bedding material
+Civil,Subbase and Base,Aggregate Base Course,cum,1800,3000,Basic,0.0,0.0,0.0,Road or slab base
+Civil,Treatment,Soil Poisoning / Termite Treatment,sqm,150,350,Basic,0.0,0.0,0.0,Under-slab termite treatment
+Civil,Pavement,Plain Cement Concrete Pavement,sqm,1600,3200,Basic,0.0,0.0,0.0,"Site paving, non-structural"
+Civil,Pavement,Reinforced Concrete Pavement,sqm,2200,4200,Basic,0.0,0.0,0.0,Site paving with reinforcement
+Civil,Drainage,Canal / Trench Drain,lm,1800,4200,Basic,0.0,0.0,0.0,Typical site drainage
+Civil,Drainage,Catch Basin,set,9000,28000,Basic,0.0,0.0,0.0,Precast or cast-in-place
+Civil,Waterproofing,Waterproofing for Podium / Deck,sqm,450,1200,Standard,0.0,0.0,0.0,Membrane/system only
+Civil,Fence and Gates,Perimeter Fence - CHB,lm,3000,7000,Basic,0.0,0.0,0.0,Typical fence line
+Civil,Fence and Gates,Steel Gate,set,18000,95000,Standard,0.0,0.0,0.0,Swing/sliding gate
+Civil,Landscaping,Topsoil and Planting,sqm,500,1800,Standard,0.0,0.0,0.0,Basic landscape works
+Civil,Utilities,Underground Utility Trenching,lm,500,1500,Basic,0.0,0.0,0.0,For small utility runs
+Structural,Concrete Works,Lean Concrete / Blinding,cum,4500,7000,Basic,0.0,0.0,0.0,Non-structural blinding
+Structural,Concrete Works,Reinforced Concrete Footing,cum,9000,13500,Standard,0.0,0.0,0.0,"Includes concrete, labor, minor accessories"
+Structural,Concrete Works,Reinforced Concrete Tie Beam,cum,9500,14500,Standard,0.0,0.0,0.0,Typical grade/tie beam
+Structural,Concrete Works,Reinforced Concrete Column,cum,10000,15000,Standard,0.0,0.0,0.0,Typical cast-in-place column
+Structural,Concrete Works,Reinforced Concrete Beam,cum,10000,15000,Standard,0.0,0.0,0.0,Typical cast-in-place beam
+Structural,Concrete Works,Reinforced Concrete Slab on Grade,cum,9000,13500,Standard,0.0,0.0,0.0,Concrete only estimate
+Structural,Concrete Works,Reinforced Concrete Suspended Slab,cum,10000,15000,Standard,0.0,0.0,0.0,Typical suspended slab
+Structural,Concrete Works,Reinforced Concrete Shear Wall,cum,10500,16000,Standard,0.0,0.0,0.0,Wall element
+Structural,Concrete Works,Reinforced Concrete Stairs,cum,11000,16500,Standard,0.0,0.0,0.0,Waist slab + steps
+Structural,Formworks,Formworks - Footing,sqm,450,900,Basic,0.0,0.0,0.0,Side forms
+Structural,Formworks,Formworks - Column,sqm,550,1000,Basic,0.0,0.0,0.0,Column forms
+Structural,Formworks,Formworks - Beam,sqm,500,950,Basic,0.0,0.0,0.0,Beam forms
+Structural,Formworks,Formworks - Slab,sqm,400,850,Basic,0.0,0.0,0.0,Slab forms and supports
+Structural,Reinforcement,Reinforcing Steel Bars - Supply and Install,kg,78,115,Standard,0.0,0.0,0.0,Rebar including placing
+Structural,Reinforcement,Tie Wire,kg,95,150,Basic,0.0,0.0,0.0,Binding wire
+Structural,Structural Steel,Structural Steel Framing,kg,125,220,Standard,0.0,0.0,0.0,Light to medium structural steel
+Structural,Structural Steel,Metal Deck,sqm,900,1800,Standard,0.0,0.0,0.0,Floor/roof deck only
+Structural,Structural Steel,Base Plate and Anchor Bolt Assembly,set,6000,25000,Standard,0.0,0.0,0.0,Typical base assembly
+Structural,Foundation,Bored Pile / Cast-in-Place Pile,lm,3000,8500,Standard,0.0,0.0,0.0,Highly project-dependent
+Structural,Foundation,Pile Cap,cum,10000,15000,Standard,0.0,0.0,0.0,Typical pile cap
+Structural,Masonry,Non-Load Bearing CHB Wall 100mm,sqm,950,1600,Basic,0.0,0.0,0.0,Includes laying mortar
+Structural,Masonry,Non-Load Bearing CHB Wall 150mm,sqm,1050,1750,Basic,0.0,0.0,0.0,Includes laying mortar
+Structural,Masonry,Concrete Hollow Blocks Only,piece,18,32,Basic,0.0,0.0,0.0,Material guide only
+Architectural,Masonry and Plaster,Cement Plaster Finish,sqm,280,520,Basic,0.0,0.0,0.0,Per face
+Architectural,Wall Finishes,Skim Coat / Putty,sqm,90,220,Basic,0.0,0.0,0.0,Prior to paint
+Architectural,Wall Finishes,Interior Painting,sqm,170,360,Standard,0.0,0.0,0.0,Primer + putty + finish coats
+Architectural,Wall Finishes,Exterior Painting,sqm,220,450,Standard,0.0,0.0,0.0,Weather-resistant system
+Architectural,Floor Finishes,Ceramic Floor Tiles,sqm,950,2200,Standard,0.0,0.0,0.0,Supply and installation
+Architectural,Floor Finishes,Homogeneous / Porcelain Floor Tiles,sqm,1400,3200,Standard,0.0,0.0,0.0,Supply and installation
+Architectural,Floor Finishes,Vinyl Floor Finish,sqm,850,2200,Standard,0.0,0.0,0.0,PVC/vinyl tiles or planks
+Architectural,Floor Finishes,Epoxy Floor Coating,sqm,600,1800,Standard,0.0,0.0,0.0,Depends on system build-up
+Architectural,Wall Finishes,Ceramic Wall Tiles,sqm,1000,2600,Standard,0.0,0.0,0.0,Supply and installation
+Architectural,Ceiling,Fiber Cement Board Ceiling,sqm,850,1700,Standard,0.0,0.0,0.0,Framing included
+Architectural,Ceiling,Gypsum Board Ceiling,sqm,900,1800,Standard,0.0,0.0,0.0,Framing included
+Architectural,Ceiling,Acoustic Ceiling Board,sqm,1400,3200,Standard,0.0,0.0,0.0,Office/classroom range
+Architectural,Doors,Flush Wooden Door,set,6500,18000,Standard,0.0,0.0,0.0,"Door leaf, jamb, hardware"
+Architectural,Doors,Solid Core Wooden Door,set,10000,25000,Standard,0.0,0.0,0.0,Heavier-duty door
+Architectural,Doors,Steel Door,set,12000,35000,Standard,0.0,0.0,0.0,Typical utility/fire exit type
+Architectural,Doors,Tempered Glass Door,set,18000,65000,Premium,0.0,0.0,0.0,Frameless/aluminum framed
+Architectural,Windows and Glass,Aluminum Sliding Window,sqm,4200,8500,Standard,0.0,0.0,0.0,With glass and accessories
+Architectural,Windows and Glass,Tempered Glass Fixed Panel,sqm,2800,6500,Standard,0.0,0.0,0.0,Panel only
+Architectural,Windows and Glass,Curtain Wall / Storefront Glazing,sqm,7000,18000,Premium,0.0,0.0,0.0,Highly system-dependent
+Architectural,Roofing,Pre-painted Longspan Roofing,sqm,950,2200,Standard,0.0,0.0,0.0,Sheets + accessories
+Architectural,Roofing,Steel Roof Framing,kg,120,220,Standard,0.0,0.0,0.0,Typical light framing
+Architectural,Roofing,Insulation / Reflective Foil,sqm,120,450,Basic,0.0,0.0,0.0,Under-roof insulation
+Architectural,Waterproofing,Toilet Waterproofing,sqm,550,1400,Standard,0.0,0.0,0.0,Toilet wet areas
+Architectural,Waterproofing,Roof Deck Waterproofing,sqm,650,1800,Standard,0.0,0.0,0.0,Membrane/system
+Architectural,Metal Works,Stainless Handrail,lm,2500,7500,Standard,0.0,0.0,0.0,Stair or balcony handrail
+Architectural,Metal Works,Steel Railing,lm,1800,5200,Standard,0.0,0.0,0.0,Painted steel railing
+Architectural,Partitions,Drywall Partition,sqm,1100,2600,Standard,0.0,0.0,0.0,Metal studs + boards
+Architectural,Cabinets and Casework,Modular Base Cabinet,lm,6500,18000,Premium,0.0,0.0,0.0,Kitchen or pantry
+Architectural,Cabinets and Casework,Toilet Cubicle,set,9000,28000,Standard,0.0,0.0,0.0,Compact laminate/PVC
+Architectural,Specialties,Signages,lot,10000,80000,Standard,0.0,0.0,0.0,Basic building signages
+Plumbing,Pipes,Cold Water Line - PPR,lm,280,650,Standard,0.0,0.0,0.0,Small diameter typical range
+Plumbing,Pipes,Hot Water Line - PPR,lm,320,780,Standard,0.0,0.0,0.0,Small diameter typical range
+Plumbing,Pipes,Sanitary Line - uPVC,lm,320,780,Standard,0.0,0.0,0.0,Gravity line typical range
+Plumbing,Pipes,Storm Drain Line - uPVC,lm,300,720,Standard,0.0,0.0,0.0,Stormwater line
+Plumbing,Fixtures,Water Closet,set,7000,26000,Standard,0.0,0.0,0.0,Fixture + accessories + install
+Plumbing,Fixtures,Lavatory,set,4500,18000,Standard,0.0,0.0,0.0,Fixture + accessories + install
+Plumbing,Fixtures,Urinal,set,7000,22000,Standard,0.0,0.0,0.0,Fixture + accessories + install
+Plumbing,Fixtures,Kitchen Sink,set,5000,18000,Standard,0.0,0.0,0.0,Single/double bowl
+Plumbing,Fixtures,Floor Drain,set,800,2500,Basic,0.0,0.0,0.0,Typical floor drain
+Plumbing,Fixtures,Shower Set,set,2500,12000,Standard,0.0,0.0,0.0,Basic to midrange
+Plumbing,Equipment,Pressure Tank and Pump Set,set,25000,120000,Standard,0.0,0.0,0.0,Depends on capacity
+Plumbing,Equipment,Sump Pump,set,12000,55000,Standard,0.0,0.0,0.0,Depends on capacity
+Plumbing,Tanks,Septic Tank,cum,6500,11000,Standard,0.0,0.0,0.0,Typical civil + plumbing allowance
+Plumbing,Tanks,Cistern / Water Tank,cum,7000,15000,Standard,0.0,0.0,0.0,Typical tank cost allowance
+Plumbing,Specialty,Grease Trap,set,12000,55000,Standard,0.0,0.0,0.0,Small to medium building
+Plumbing,Specialty,STP Package System,cum/day,150000,500000,Premium,0.0,0.0,0.0,Very project-specific
+Mechanical,HVAC,Window Type Aircon,unit,18000,38000,Standard,0.0,0.0,0.0,Depends on HP/capacity
+Mechanical,HVAC,Split Type Aircon,unit,28000,85000,Standard,0.0,0.0,0.0,Depends on HP/capacity
+Mechanical,HVAC,Cassette Type Aircon,unit,65000,180000,Premium,0.0,0.0,0.0,Depends on HP/capacity
+Mechanical,HVAC,VRF / VRV Air-Conditioning System,sqm,3800,9000,Premium,0.0,0.0,0.0,Budgetary allowance per sqm
+Mechanical,HVAC,Ductworks,sqm,1200,3200,Standard,0.0,0.0,0.0,Galvanized ducting
+Mechanical,HVAC,Mechanical Ventilation / Exhaust Fan,unit,2500,16000,Standard,0.0,0.0,0.0,Small to medium fans
+Mechanical,Fire Protection,Fire Sprinkler System,sqm,900,2500,Standard,0.0,0.0,0.0,Budgetary allowance per sqm
+Mechanical,Fire Protection,Fire Hose Cabinet,set,12000,30000,Standard,0.0,0.0,0.0,Cabinet with accessories
+Mechanical,Fire Protection,Fire Extinguisher,unit,1800,6500,Basic,0.0,0.0,0.0,Portable extinguisher
+Mechanical,Fire Protection,Fire Pump Set,set,180000,750000,Premium,0.0,0.0,0.0,Depends on capacity/system
+Mechanical,Fire Protection,Jockey Pump,set,35000,120000,Standard,0.0,0.0,0.0,Ancillary FP equipment
+Mechanical,Vertical Transport,Passenger Elevator,stop,700000,1800000,Premium,0.0,0.0,0.0,Budgetary per stop/level
+Mechanical,Vertical Transport,Dumbwaiter,set,350000,1200000,Premium,0.0,0.0,0.0,Budgetary range
+Electrical,Power,Lighting Outlet,point,1200,2800,Standard,0.0,0.0,0.0,Point wiring + switch + fixtures allowance
+Electrical,Power,Convenience Outlet,point,1200,2800,Standard,0.0,0.0,0.0,Point wiring + device
+Electrical,Power,Dedicated Power Outlet,point,1800,4500,Standard,0.0,0.0,0.0,Aircon/equipment outlet
+Electrical,Power,Panel Board,set,18000,120000,Standard,0.0,0.0,0.0,Depends on breakers/size
+Electrical,Power,Main Distribution Board,set,50000,280000,Premium,0.0,0.0,0.0,Depends on size and brand
+Electrical,Power,Transformer,kVA,3500,12000,Premium,0.0,0.0,0.0,Budgetary cost per kVA
+Electrical,Power,Generator Set,kVA,12000,30000,Premium,0.0,0.0,0.0,Budgetary cost per kVA
+Electrical,Power,Busduct / Busway,lm,3500,12000,Premium,0.0,0.0,0.0,Depends on rating
+Electrical,Lighting,LED Troffer / Panel Light,unit,1200,4500,Standard,0.0,0.0,0.0,Fixture + install
+Electrical,Lighting,Outdoor Pole Light,set,12000,65000,Standard,0.0,0.0,0.0,"Post, fixture, base allowance"
+Electrical,Lighting,Emergency Light,unit,1200,4500,Standard,0.0,0.0,0.0,Battery-backed unit
+Electrical,Lighting,Exit Sign,unit,900,3800,Standard,0.0,0.0,0.0,Illuminated exit sign
+Electrical,Low Current,FDAS,sqm,350,1100,Standard,0.0,0.0,0.0,Budgetary allowance per sqm
+Electrical,Low Current,CCTV System,camera,4500,25000,Standard,0.0,0.0,0.0,"Per camera point, excl. large servers"
+Electrical,Low Current,Data / Telephone Outlet,point,1200,3500,Standard,0.0,0.0,0.0,Structured cabling point
+Electrical,Low Current,Public Address / Sound System,sqm,180,650,Standard,0.0,0.0,0.0,Budgetary allowance per sqm
+Electrical,Low Current,Access Control / Biometrics,door,12000,45000,Standard,0.0,0.0,0.0,Per controlled door
+Electrical,Grounding,Grounding System,lot,15000,120000,Standard,0.0,0.0,0.0,"Ground rods, conductors, testing"
+Electrical,Protection,Lightning Protection System,lot,25000,200000,Standard,0.0,0.0,0.0,Air terminals and down conductors
+Electrical,Rough-In,Electrical Roughing-In,sqm,450,1250,Standard,0.0,0.0,0.0,Budgetary allowance per sqm
+General Requirements,Preliminaries,Temporary Facilities,lot,20000,180000,Basic,0.0,0.0,0.0,"Barracks, utilities, temporary works"
+General Requirements,Preliminaries,Occupational Safety and Health Program,lot,15000,120000,Basic,0.0,0.0,0.0,"Safety devices, PPE, signage"
+General Requirements,Preliminaries,Testing and Commissioning,lot,20000,200000,Standard,0.0,0.0,0.0,Final system testing
+General Requirements,Preliminaries,Permits and Clearances Allowance,lot,10000,100000,Standard,0.0,0.0,0.0,Budgetary allowance only
